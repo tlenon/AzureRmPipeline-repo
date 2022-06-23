@@ -20,7 +20,7 @@ steps:
     location: 'UK South'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/tlenon/AzureRmPipeline-repo/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName TL-Test'
+    overrideParameters: '-projectName TLTest'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
